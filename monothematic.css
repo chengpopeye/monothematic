@@ -70,7 +70,7 @@ h6,
 [mdlike='h6'] {
   font-weight: bold;
   font-family: "PT Mono", monospace;
-  color: #ffffc5;
+  color: #ffe085;
 }
 [mdlike='h1'] > .md-blockmeta,
 [mdlike='h2'] > .md-blockmeta,
@@ -297,7 +297,7 @@ ul[cid] {
 ul[cid] li:before {
   margin-left: -3ch;
   position: absolute;
-  color: #ffffc5;
+  color: #ffe085;
 }
 ul[data-mark="-"] > li:before {
   content: "-";
@@ -315,7 +315,7 @@ ol[cid] {
 ol[cid] > li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: #ffffc5;
+  color: #ffe085;
   margin-left: -2ch;
   position: absolute;
 }
@@ -329,7 +329,7 @@ ol[cid] > li:before {
   vertical-align: middle;
   text-align: center;
   background-color: #222;
-  color: #ffffc5;
+  color: #ffe085;
 }
 .task-list-item input:checked:before {
   content: '[x]';
@@ -566,7 +566,7 @@ a {
   line-height: 1rem;
 }
 #typora-source .cm-strong {
-  color: #ffffc5;
+  color: #ffe085;
 }
 #typora-source .cm-em {
   color: #c885f5;
