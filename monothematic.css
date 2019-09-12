@@ -320,7 +320,7 @@ ul[cid] li:before {
   content: "*";
   margin-left: -3ch;
   position: absolute;
-  color: #4fac4f;
+  color: #ffffc5;
 }
 ul[data-mark="-"] > li:before {
   content: "-";
@@ -338,7 +338,7 @@ ol[cid] {
 ol[cid] > li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: #4fac4f;
+  color: #ffffc5;
   margin-left: -2ch;
   position: absolute;
 }
@@ -352,7 +352,7 @@ ol[cid] > li:before {
   vertical-align: middle;
   text-align: center;
   background-color: #222;
-  color: #4fac4f;
+  color: #ffffc5;
 }
 .task-list-item input:checked:before {
   content: '[x]';
