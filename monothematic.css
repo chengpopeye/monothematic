@@ -70,7 +70,7 @@ h6,
 [mdlike='h6'] {
   font-weight: bold;
   font-family: "PT Mono", monospace;
-  color: #dbdbfd;
+  color: #ffffc5;
 }
 [mdlike='h1'] > .md-blockmeta,
 [mdlike='h2'] > .md-blockmeta,
@@ -570,18 +570,8 @@ hr:after {
 /**
  * Inline Elements
  */
-code {
-  color: #caca16;
-  font-size: 0.9em;
-}
 mark {
   background: bisque;
-}
-strong {
-  color: #ffffc5;
-}
-em {
-  color: #c885f5;
 }
 a {
   color: #8ac9ff;
