@@ -70,7 +70,7 @@ h6,
 [mdlike='h6'] {
   font-weight: bold;
   font-family: "PT Mono", monospace;
-  color: #f3c900;
+  color: #d0b425;
 }
 [mdlike='h1'] > .md-blockmeta,
 [mdlike='h2'] > .md-blockmeta,
@@ -297,7 +297,7 @@ ul[cid] {
 ul[cid] li:before {
   margin-left: -3ch;
   position: absolute;
-  color: #f3002b;
+  color: #d02544;
 }
 ul[data-mark="-"] > li:before {
   content: "-";
@@ -315,7 +315,7 @@ ol[cid] {
 ol[cid] > li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: #f3002b;
+  color: #d02544;
   margin-left: -2ch;
   position: absolute;
 }
@@ -329,11 +329,11 @@ ol[cid] > li:before {
   vertical-align: middle;
   text-align: center;
   background-color: #222;
-  color: #f3002b;
+  color: #d02544;
 }
 .task-list-item input:checked:before {
   content: '[x]';
-  color: #00f3c9;
+  color: #25d0b4;
 }
 .task-list-item input:checked ~ * {
   text-decoration: line-through;
@@ -548,7 +548,7 @@ mark {
   background: bisque;
 }
 a {
-  color: #00a4f3;
+  color: #2597d0;
 }
 #write a:hover {
   background-color: #2a6496;
@@ -567,13 +567,13 @@ a {
   line-height: 1rem;
 }
 #typora-source .cm-strong {
-  color: #f3c900;
+  color: #d0b425;
 }
 #typora-source .cm-em {
   color: #c885f5;
 }
 #typora-source .cm-link {
-  color: #00a4f3;
+  color: #2597d0;
 }
 #typora-source .cm-string {
   color: #5b808d;
