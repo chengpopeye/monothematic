@@ -187,30 +187,6 @@ a.md-toc-inner {
 #write > table {
   width: 100%;
 }
-#write > h1,
-#write > [mdlike='h1'] {
-  margin-left: -2ch;
-}
-#write > h2,
-#write > [mdlike='h2'] {
-  margin-left: -3ch;
-}
-#write > h3,
-#write > [mdlike='h3'] {
-  margin-left: -4ch;
-}
-#write > h4,
-#write > [mdlike='h4'] {
-  margin-left: -5ch;
-}
-#write > h5,
-#write > [mdlike='h5'] {
-  margin-left: -6ch;
-}
-#write > h6,
-#write > [mdlike='h6'] {
-  margin-left: -7ch;
-}
 #write p {
   margin-top: 1rem;
   margin-bottom: 1rem;
