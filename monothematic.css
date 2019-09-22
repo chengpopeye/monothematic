@@ -1,9 +1,9 @@
 @include-when-export url(https://fonts.loli.net/css?family=Inconsolata:400,700&subset=latin-ext);
 
 :root {
-  --bg-color: #222;
+  --bg-color: rgb(25, 25, 25);
   --side-bar-bg-color: #5F5F5F;
-  --active-file-text-color: #222;
+  --active-file-text-color: rgb(25, 25, 25);
   --text-color: #ebebeb;
   --window-border: 1px solid #606060;
   --active-file-bg-color: rgba(219, 219, 253, 0.4);
@@ -14,7 +14,7 @@
 html, body {
   font-size: 18px;
   color: #ebebeb;
-  background: #222;
+  background: rgb(25, 25, 25);
   background: var(--bg-color);
   font-family: 'Inconsolata', monospace;
 }
@@ -328,7 +328,7 @@ ol[cid] > li:before {
   top: -1px;
   vertical-align: middle;
   text-align: center;
-  background-color: #222;
+  background-color: rgb(25, 25, 25);
   color: #d02544;
 }
 .task-list-item input:checked:before {
@@ -590,7 +590,7 @@ a {
   border-color: #333;
 }
 #write div.md-toc-tooltip {
-  background-color: #222;
+  background-color: rgb(25, 25, 25);
 }
 .btn,
 .btn .btn-default {
@@ -704,7 +704,7 @@ input.form-control {
   width: calc(25% - 2.5px);
 }
 #w-unpin {
-  color: #222;
+  color: rgb(25, 25, 25);
 }
 .dropdown-menu .divider {
   background-color: #999;
@@ -714,8 +714,8 @@ input.form-control {
 }
 #megamenu-content,
 .megamenu-opened header {
-  background-color: #222;
-  background: #222;
+  background-color: rgb(25, 25, 25);
+  background: rgb(25, 25, 25);
 }
 .md-expand.md-image > .md-meta {
   background-color: rgba(219, 219, 219, 0.86);
@@ -749,7 +749,7 @@ titlebar {
 }
 
 .sidebar-footer {
-  background: #222;
+  background: rgb(25, 25, 25);
   border-top: 1px transparent solid;
 }
 
